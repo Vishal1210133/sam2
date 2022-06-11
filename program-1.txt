@@ -1,0 +1,7 @@
+public class Admin_Book_Table_Model {
+	public int insert_book(Book_Use_Bean obj_Book_Use_Bean){
+		Connection connection=null;
+		DBConnection_LMS_Portal obj_DBConnection_SMS_Portal=new DBConnection_LMS_Portal();
+		connection=obj_DBConnection_SMS_Portal.getConnection();
+		PreparedStatement ps=null;
+		int flag=0;
