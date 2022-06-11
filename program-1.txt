@@ -8,3 +8,4 @@ public class Admin_Book_Table_Model {
 Retrieves a ResultSetMetaData object that contains information about the columns of the ResultSet object that will be returned when this PreparedStatement object is executed.
 
 Sets the designated parameter to the given input stream,
+Sets the designated parameter to the given java.math.BigDecima
